@@ -14,5 +14,5 @@ provider "aws" {
 
 module "tf-state" {
     source = "./modules/tf-state"
-    bucket_name = "cc-tf-state-backend-ci-cd"
+    bucket_name = "cc-tf-state-backend-ci-cd-yves"
 }

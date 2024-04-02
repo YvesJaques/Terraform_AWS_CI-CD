@@ -24,3 +24,7 @@ module "tf-state" {
     source = "./modules/tf-state"
     bucket_name = "cc-tf-state-backend-ci-cd-yves"
 }
+
+module "dynamodb-infra" {
+    source = "./modules/dynamodb"
+}
